@@ -20,8 +20,6 @@ services:
     container_name: app
     networks:
       - nginx-network
-    volumes:
-      - ./node:/usr/src/app
     ports:
       - "3000:3000"
     tty: true
